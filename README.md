@@ -14,8 +14,8 @@ This repository contains **two implementations** of a **simple chat application*
 ### Running the UNIX Domain Chat
 1. **Compile the server and client**
    ```bash
-   gcc -o chat_server chat_server.c
-   gcc -o chat_client chat_client.c
+   gcc -o unix_server unix_server.c
+   gcc -o unix_client unix_client.c
 
 This chat system follows a **client-server model**, where:
 - The **server** listens for incoming connections.
@@ -23,11 +23,11 @@ This chat system follows a **client-server model**, where:
 
 2. **Run the server in one terminal**
    ```bash
-   ./chat_server
+   ./unix_server
    
 3. **Run the client in another terminal**
    ```bash
-   ./chat_client
+   ./unix_client
 
 4. **Start Chatting**
 - Type a message in the client, and it appears on the server.
@@ -41,8 +41,8 @@ This chat system follows a **client-server model**, where:
 ### Running the Internet Domain Chat
 1. **Compile the server and client**
    ```bash
-   gcc -o chat_server_int chat_server_int.c
-   gcc -o chat_client_int chat_client_int.c
+   gcc -o internet_server internet_server.c
+   gcc -o internet_client internet_client.c
 
 This chat system follows a **client-server model**, where:
 - The **server** listens for incoming connections.
@@ -50,11 +50,11 @@ This chat system follows a **client-server model**, where:
 
 2. **Run the server in one terminal**
    ```bash
-   ./chat_server_int
+   ./internet_server
    
 3. **Run the client in another terminal**
    ```bash
-   ./chat_client_int
+   ./internet_client
 
 4. **Start Chatting**
 - Type a message in the client, and it appears on the server.
@@ -62,7 +62,7 @@ This chat system follows a **client-server model**, where:
 - Type "exit" to close the chat.
 
 ### Contributors
-- MALLUPEDDI VAMSI KRISHNA
 - NISHANTH ROY KEERTHI
 - KOLLA VIVEK SAGAR
 - MALLIALA SRINIVAS
+- MALLUPEDDI VAMSI KRISHNA
